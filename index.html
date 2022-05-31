@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work</title>
+</head>
+<body>
+    <div> 
+        <h1>Hello</h1>
+
+        <script>
+
+            // Toggles visibility of greeting Переключает видимость приветствия
+            function blink() {
+                let div1 = document.querySelector('h1');
+                if (div1.style.visibility == 'hidden') {
+                    div1.style.visibility = 'visible';
+                }
+                else {
+                    div1.style.visibility = 'hidden';
+                }
+            }
+
+            // Blink every 500ms
+            window.setInterval(blink, 500);
+
+        </script>
+    </div>
+
+
+</body>
+</html>
